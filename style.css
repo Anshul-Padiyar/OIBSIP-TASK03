@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+    background-color: #E0AAFF;
+
+
+    color: #10002B;
+    color: #3C096C;
+    color: #7B2CBF;
+    color: #9D4EDD;
+    color: #E0AAFF;
+}
+
+.container {
+    width: 400px;
+    border: 2px #7B2CBF;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 20px #7B2CBF;
+    background-color: white;
+}
+
+.heading {
+    padding: 15px 10px 20px 10px;
+    border: 2px #7B2CBF;
+    border-radius: 8px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    color: #9D4EDD;
+}
+
+.boxcontainer {
+    display: flex;
+}
+
+p {
+    font-size: 1rem;
+    color: #3C096C;
+    padding: 5px 2px;
+    font-family: 'Montserrat';
+}
+
+.box {
+    width: 50%;
+    padding: 10px 5px;
+}
+
+.inputValue,
+#unit {
+    width: 100%;
+    padding-left: 4px;
+    font-size: 22px;
+    font-family: 'Montserrat';
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #E0AAFF;
+}
+
+.inputValue:hover {
+    border-bottom: 2px solid #7B2CBF;
+}
+
+#unit {
+    font-size: 1.1rem;
+    margin-top: 4.5px;
+    font-family: 'Montserrat';
+}
+
+#unit:hover {
+    border-bottom: 2px solid #7B2CBF;
+}
+
+.valuecontainer {
+    margin: 10px 0;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+}
+
+.value {
+    width: 100%;
+    padding-left: 4px;
+    height: 30px;
+    margin: 8px 0;
+    border-bottom: 1px solid #E0AAFF;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #3C096C;
+    font-size: 1.4rem;
+}
+
+.button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #f1f2f6;
+    background-color: #9D4EDD;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease background-color;
+}
+
+.button:hover {
+    background-color: #7B2CBF;
+}
+
+.logo {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
+
+.logo img{
+    max-width: 50px;
+    opacity: 70%;
+}
